@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="226px">
+
+    <lib.lhh.fiv.library.FrescoImageView
+        android:id="@+id/goodsCate_frescoImageView"
+        android:layout_width="160px"
+        android:layout_height="160px"
+        android:layout_marginLeft="8px"
+        android:layout_marginTop="20px" />
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6px"
+        android:layout_marginTop="36px"
+        android:layout_toRightOf="@+id/goodsCate_frescoImageView"
+        android:text="21321"
+        android:textColor="#333333"
+        android:textSize="28px" />
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@+id/goodsCate_frescoImageView"
+        android:layout_marginLeft="6px"
+        android:layout_marginTop="34px"
+        android:layout_below="@+id/name_tv"
+        android:gravity="center_vertical">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="226px"
+            android:layout_height="wrap_content">
+            <ProgressBar
+                android:layout_width="226px"
+                android:layout_height="10px"
+                android:max="100"
+                android:id="@+id/goodsCate_progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:progressDrawable="@drawable/progressbar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4430"
+                android:layout_below="@+id/goodsCate_progressBar"
+                android:layout_marginTop="14px"
+                android:id="@+id/max_buy_tv"
+                android:textColor="#669df1"
+                android:textSize="20px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="总需"
+                android:layout_below="@+id/max_buy_tv"
+                android:layout_marginTop="14px"
+                android:textColor="#999999"
+                android:textSize="22px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="4430"
+                android:layout_below="@+id/goodsCate_progressBar"
+                android:layout_marginTop="14px"
+                android:id="@+id/surplus_buy"
+                android:textColor="#669df1"
+                android:textSize="20px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="剩余"
+                android:layout_below="@+id/surplus_buy"
+                android:layout_marginTop="14px"
+                android:textColor="#999999"
+                android:textSize="22px"
+                android:layout_alignParentRight="true"/>
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+
+        <TextView
+            android:id="@+id/addParticipants_tv"
+            android:layout_width="130px"
+            android:layout_height="54px"
+            android:text="立即参与"
+            android:textSize="24px"
+            android:background="@drawable/addorder_border"
+            android:gravity="center"
+            android:textColor="#e75a5a"
+            android:layout_marginLeft="12px"/>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</com.zhy.autolayout.AutoRelativeLayout>

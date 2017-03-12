@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/main_bottom_rg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_activity_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        android:paddingTop="10px">
+
+        <RadioButton
+            android:id="@+id/main_rb_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/gold_tab_selector"
+            android:text="夺宝"
+            android:textColor="@drawable/bottom_text_color"
+            android:textSize="@dimen/main_activity_bottom_tv" />
+
+        <RadioButton
+            android:id="@+id/main_rb_com"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/soat_tab_selector"
+            android:gravity="center"
+            android:text="分类"
+            android:textColor="@drawable/bottom_text_color"
+            android:textSize="@dimen/main_activity_bottom_tv" />
+
+        <RadioButton
+            android:id="@+id/main_rb_dis"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/publish_tab_selector"
+            android:gravity="center"
+            android:text="最新揭晓"
+            android:textColor="@drawable/bottom_text_color"
+            android:textSize="@dimen/main_activity_bottom_tv" />
+
+        <RadioButton
+            android:id="@+id/main_rb_order"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/order_tab_selector"
+            android:gravity="center"
+            android:text="订单"
+            android:textColor="@drawable/bottom_text_color"
+            android:textSize="@dimen/main_activity_bottom_tv" />
+
+        <RadioButton
+            android:id="@+id/main_rb_mine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/me_tab_selector"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="@drawable/bottom_text_color"
+            android:textSize="@dimen/main_activity_bottom_tv" />
+
+    </RadioGroup>
+
+    <com.rui.unarygetgold.views.NoScrollViewPager
+        android:id="@+id/main_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_bottom_rg">
+
+    </com.rui.unarygetgold.views.NoScrollViewPager>
+</com.zhy.autolayout.AutoRelativeLayout>

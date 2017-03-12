@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F86260</color>
+    <color name="colorPrimaryDark">#F86260</color>
+    <color name="colorAccent">#F86260</color>
+    <color name="main_bottom_tv_check">#F86260</color>
+    <color name="main_bottom_tv_normal">#676767</color>
+    <color name="white">#fff</color>
+    <color name="red">#f00</color>
+    <color name="black">#000</color>
+    <color name="gray">#615f5f</color>
+    <color name="category_titles">#d6d3d3</color>
+
+    <color name="titles">#EEEEEE</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="blue">#669df1</color>
+    <color name="colorMyText">#ff7c4e</color>
+    <color name="black6">#666666</color>
+    <color name="vertical_line">#cccccc</color>
+</resources>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/pager_gary_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/id_my_personData_RLayout"
+        style="@style/title_main_style"
+        android:layout_width="match_parent"
+        android:layout_height="190px">
+
+        <ImageView
+            android:id="@+id/id_my_photo_iv"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:layout_marginLeft="24px"
+            android:layout_marginTop="26px"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/person_default"/>
+
+        <TextView
+            android:id="@+id/id_not_loginUser_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20px"
+            android:layout_toRightOf="@id/id_my_photo_iv"
+            android:text="请点击登陆"
+            android:textColor="#ffffff"
+            android:textSize="26px" />
+
+        <TextView
+            android:id="@+id/id_my_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="54px"
+            android:layout_toRightOf="@id/id_my_photo_iv"
+            android:text="@string/test_name_text"
+            android:textColor="@color/colorWhite"
+            android:textSize="26px"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/id_my_phone_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_my_name_tv"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="18px"
+            android:layout_toRightOf="@id/id_my_photo_iv"
+            android:text="@string/phone"
+            android:textColor="@color/colorWhite"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/id_my_personData_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="24px"
+            android:layout_marginRight="24px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_my_personData_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/person_data"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/id_personData_right_iv"
+                android:layout_width="44px"
+                android:layout_height="40px"
+                android:clickable="false"
+                android:src="@mipmap/white_right_icon" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/id_my_account_layout"
+        style="@style/white_pager_style"
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:layout_below="@id/id_my_personData_RLayout"
+        android:orientation="horizontal">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/id_integral_layout"
+            android:layout_width="166px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="24px"
+            android:layout_marginTop="34px"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_integral_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="0"
+                    android:textColor="@color/colorMyText"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="@string/fen"
+                    android:textColor="@color/colorMyText"
+                    android:textSize="9sp" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18px"
+                android:clickable="false"
+                android:text="@string/integral"
+                android:textColor="@color/black6"
+                android:textSize="13sp" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="80px"
+            android:layout_marginTop="34px"
+            android:background="@color/vertical_line" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/id_red_packet_layout"
+            android:layout_width="168px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="34px"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_red_packet_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="0"
+                    android:textColor="@color/colorMyText"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="@string/ge"
+                    android:textColor="@color/colorMyText"
+                    android:textSize="9sp" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18px"
+                android:clickable="false"
+                android:text="@string/red_packet"
+                android:textColor="@color/black6"
+                android:textSize="13sp" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="80px"
+            android:layout_marginTop="34px"
+            android:background="@color/vertical_line" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/id_remaining_sum_layout"
+            android:layout_width="166px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="34px"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_remaining_sum_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="0"
+                    android:textColor="@color/colorMyText"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="@string/bi"
+                    android:textColor="@color/colorMyText"
+                    android:textSize="9sp" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18px"
+                android:clickable="false"
+                android:text="@string/remaining_sum"
+                android:textColor="@color/black6"
+                android:textSize="13sp" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <ImageView
+            android:id="@+id/id_top_up_money_iv"
+            android:layout_width="160px"
+            android:layout_height="64px"
+            android:layout_marginLeft="12px"
+            android:layout_marginTop="36px"
+            android:src="@mipmap/top_up_icon" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <include
+        android:id="@+id/id_my_showlist_item"
+        layout="@layout/my_showlist_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_my_account_layout" />
+</com.zhy.autolayout.AutoLinearLayout>

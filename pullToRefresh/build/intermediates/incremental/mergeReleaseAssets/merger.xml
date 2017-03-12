@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="R:\android_studio_project\UnaryGetGold\pullToRefresh\src\main\assets"/><source path="R:\android_studio_project\UnaryGetGold\pullToRefresh\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="R:\android_studio_project\UnaryGetGold\pullToRefresh\src\release\assets"/></dataSet></merger>

@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">@dimen/tablayout_tv</item>
+    </style>
+
+    <style name="title_main_style">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="pager_gary_style">
+        <!-- 主色调 -->
+        <item name="android:background">#f2f2f2</item>
+    </style>
+
+    <!-- 白色背景 -->
+    <style name="white_pager_style">
+        <item name="android:background">#fff</item>
+    </style>
+
+    <!-- 内分割线 -->
+    <style name="line_inner_style">
+        <item name="android:background">#e5e5e5</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+</resources>

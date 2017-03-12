@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <lib.lhh.fiv.library.FrescoImageView
+            android:id="@+id/icon_frescoImageView"
+            android:layout_width="180px"
+            android:layout_height="180px"
+            android:layout_marginBottom="30px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="12px"
+            android:layout_marginTop="30px" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20px"
+            android:layout_toRightOf="@+id/icon_frescoImageView"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/duobaoitem_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24px"
+                android:scrollIndicators="end"
+                android:text="凯迪拉克..."
+                android:textColor="#666666"
+                android:textSize="28px" />
+
+            <TextView
+                android:id="@+id/max_buy_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16px"
+                android:text="价值"
+                android:textSize="24px" />
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/messageLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8px"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/luck_user_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8px"
+                    android:text="获奖者"
+                    android:textSize="24px" />
+
+                <TextView
+                    android:id="@+id/luck_user_buy_count_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8px"
+                    android:text="参与人数"
+                    android:textSize="24px" />
+
+
+                <TextView
+                    android:id="@+id/startTime_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8px"
+                    android:text="揭晓时间"
+                    android:textSize="24px" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/count_down_linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="52px"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="32px"
+                    android:layout_height="32px"
+                    android:src="@mipmap/count_down" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8px"
+                    android:text="即将揭晓"
+                    android:textColor="#ff3660"
+                    android:textSize="30px" />
+
+
+                <TextView
+                    android:id="@+id/willAwards_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16px"
+                    android:textColor="#ff3660"
+                    android:textSize="50px" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoLinearLayout>

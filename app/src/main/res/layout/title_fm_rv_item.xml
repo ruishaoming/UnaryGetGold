@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="24px"
+    android:paddingRight="20px">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="336px"
+        android:layout_height="384px">
+
+        <lib.lhh.fiv.library.FrescoImageView
+            android:id="@+id/frescoImageView"
+            android:layout_width="230px"
+            android:layout_height="230px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20px" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20px"
+            android:orientation="horizontal"
+            android:id="@+id/autoLinearLayout">
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/kaijiangjindu_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="开奖进度"
+                    android:textColor="#333333"
+                    android:textSize="20px" />
+
+                <TextView
+                    android:id="@+id/progress_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20px"
+                    android:layout_toRightOf="@+id/kaijiangjindu_tv"
+                    android:text="3213"
+                    android:textColor="#6ba6ff"
+                    android:textSize="20px" />
+
+                <ProgressBar
+                    android:paddingRight="35px"
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="192px"
+                    android:layout_height="8px"
+                    android:layout_below="@+id/kaijiangjindu_tv"
+                    android:layout_marginTop="14px"
+                    android:progressDrawable="@drawable/progressbar" />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+
+            <TextView
+                android:padding="5px"
+                android:id="@+id/addOrder_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="46px"
+                android:layout_gravity="center"
+                android:textColor="#ff3660"
+                android:gravity="center"
+                android:text="加入清单"
+                android:background="@drawable/addorder_border"
+                android:textSize="24px" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:text="323123"
+            android:textColor="#333333"
+            android:textSize="22px"
+            android:layout_above="@+id/autoLinearLayout"
+            android:id="@+id/brief_tv" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</com.zhy.autolayout.AutoLinearLayout>

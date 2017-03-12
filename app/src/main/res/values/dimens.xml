@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_activity_bottom_tv">26px</dimen>
+    <dimen name="main_activity_bottom">94px</dimen>
+    <dimen name="title_height">86px</dimen>
+    <dimen name="home_top_vp_h_284">284px</dimen>
+    <dimen name="title_tv">40px</dimen>
+    <dimen name="tablayout_tv">33px</dimen>
+</resources>

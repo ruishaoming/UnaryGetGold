@@ -1,0 +1,318 @@
+<resources>
+    <string name="app_name">一元夺宝</string>
+    <string name="search">搜索</string>
+
+    <string name="category">分类</string>
+
+    <string name="ten_area">10元专区</string>
+
+    <string name="ten_area1">十元专区</string>
+
+    <string name="open_result">揭晓</string>
+
+    <string name="open_order">晒单</string>
+
+    <string name="new_open_result">最新揭晓</string>
+
+    <string name="new_hot">最热</string>
+
+    <string name="newest">最新</string>
+
+    <string name="new_fast">最快</string>
+
+    <string name="high_price">高价</string>
+
+    <string name="low_price">低价</string>
+
+    <string name="gold">夺宝</string>
+
+    <string name="find">发现</string>
+
+    <string name="order">订单</string>
+
+    <string name="my">我的</string>
+
+    <string name="more">更多</string>
+
+    <string name="desc" />
+
+    <string name="headline">标题</string>
+
+    <string name="price_value">价值：%1d元</string>
+
+    <string name="will_open">即将揭晓</string>
+
+    <string name="will_timer">02:31:32</string>
+
+    <string name="opening">正在开奖</string>
+
+    <string name="winner">获奖者：%1s</string>
+
+    <string name="join_count">参与人数：%1d人次</string>
+
+    <string name="open_time">揭晓时间：%1s</string>
+
+    <string name="yuan">元</string>
+
+    <string name="invite_friend">邀请好友，百元红包</string>
+
+    <string name="invite_friend_describe">丰厚礼品、现金红包等你来取~</string>
+
+    <string name="isEmpty_describe1">购物车空空如也</string>
+
+    <string name="isEmpty_describe2">快去挑选吧~</string>
+
+    <string name="but_go">去逛逛</string>
+
+    <string name="you_like">猜你喜欢</string>
+
+    <string name="all_count">总需:%1d人次</string>
+
+    <string name="odd_count">剩余:%1d人次</string>
+
+    <string name="text_hint">参与人次需为10的整数倍</string>
+
+    <string name="sum">总计:</string>
+
+    <string name="get_goods">夺宝币</string>
+
+    <string name="count_goods">共计%1d件商品</string>
+
+    <string name="go_sum">去结算</string>
+
+    <string name="phone">未设置手机号码</string>
+
+    <string name="person_data">个人资料</string>
+
+    <string name="myIntegral">我的积分</string>
+
+    <string name="integral">积分</string>
+
+    <string name="red_packet">红包</string>
+
+    <string name="remaining_sum">余额</string>
+
+    <string name="ji_fen">积分</string>
+
+    <string name="fen">分</string>
+
+    <string name="ge">个</string>
+
+    <string name="bi">币</string>
+
+    <string name="gold_record">夺宝记录</string>
+
+    <string name="win_record">中奖记录</string>
+
+    <string name="order_share">晒单分享</string>
+
+    <string name="invite_friend_my">邀请好友</string>
+
+    <string name="address">收货地址</string>
+
+    <string name="integral_exchange_describe">（兑换比例200:1）</string>
+
+    <string name="integral_describe">积分明细</string>
+
+    <string name="integral_exchange">积分兑换</string>
+
+    <string name="get_integral">赚取积分</string>
+
+    <string name="everyday_sign">每日签到</string>
+
+    <string name="already_sign">已签到</string>
+
+    <string name="everyday_sign_describe">每日签到可获得相应积分增长</string>
+
+    <string name="join_gold">参与夺宝</string>
+
+    <string name="atone_join_gold">立即夺宝</string>
+
+    <string name="join_gold_describe">每成功夺宝1人次可获得1积分</string>
+
+    <string name="everyday_share">每日分享</string>
+
+    <string name="edit_data">完善资料</string>
+
+    <string name="edit_address">完善收货地址</string>
+
+    <string name="first_day">第1天</string>
+
+    <string name="second_day">第2天</string>
+
+    <string name="third_day">第3天</string>
+
+    <string name="fourth_day">第4天</string>
+
+    <string name="fifth_day">第5天</string>
+
+    <string name="sixth_day">第6天</string>
+
+    <string name="seventh_day">第7天</string>
+
+    <string name="my_red_packet">我的红包</string>
+
+    <string name="not_use">未使用</string>
+
+    <string name="history_red_packet">历史红包</string>
+
+    <string name="now_notUse_redPacket">暂无可使用红包哦~</string>
+
+    <string name="now_notUse_out_redPacket">暂无已使用/\过期红包哦~</string>
+
+    <string name="invite_friend_redPacket">邀请好友红包</string>
+
+    <string name="invite_friend_redPacketDe1">您的好友XXX完成%2d元充值</string>
+
+    <string name="invite_friend_redPacketDe2">仅适用于在支付环节进行金额抵扣</string>
+
+    <string name="fill_use">满%1d元起用</string>
+
+    <string name="fill_100_use">满100元起用</string>
+
+    <string name="RMB">￥</string>
+
+    <string name="myGoldB">我的夺宝币</string>
+
+    <string name="gold_exchange_describe">（1元=1夺宝币）</string>
+
+    <string name="goldB_describe">夺宝币明细</string>
+
+    <string name="now_notRecord_gold">暂无夺宝记录哦</string>
+
+    <string name="now_go_gold">马上夺宝</string>
+
+    <string name="get">赚取</string>
+
+    <string name="exchange">兑换</string>
+
+    <string name="plese_login">请点击登录</string>
+
+    <string name="login">登录</string>
+
+    <string name="fast_register">快速注册</string>
+
+    <string name="et_phone">请输入手机号</string>
+
+    <string name="et_password">请输入6-20位登录密码</string>
+
+    <string name="not_know_password">忘记密码?</string>
+
+    <string name="one_key_login">一键登录</string>
+
+    <string name="qq">QQ</string>
+
+    <string name="weiXin">微信</string>
+
+    <string name="reset_passWord">重置密码</string>
+
+    <string name="register">立即注册</string>
+
+    <string name="bindRegister">绑定注册</string>
+
+    <string name="get_code">获取验证码</string>
+
+    <string name="reset_send">秒后重发</string>
+
+    <string name="voice_code">请输入语音验证码</string>
+
+    <string name="set_password">请设置6-20位登录密码</string>
+
+    <string name="agree">我已阅读并同意《一元夺宝用户协议》</string>
+
+    <string name="test_name_text">岂有此女</string>
+
+    <string name="test_text">iPone7正品包邮...</string>
+
+    <string name="test_text1">凯迪拉克XT5 2016款 25T 豪华型颜色随机（商品价格仅包含裸车价）颜色</string>
+
+    <string name="test_text2">[52237期]iPone7 256G 颜色颜色随机正品（商品价格仅包含裸车价）颜色</string>
+
+    <!-- <string name="title_activity_login_register_base">LoginRegisterBaseActivity</string>-->
+
+
+    <string name="head_photo">头像</string>
+
+    <string name="nickName">昵称</string>
+
+    <string name="mobile">手机号码</string>
+
+    <string name="sex">性别</string>
+
+    <string name="man">男</string>
+
+    <string name="woman">女</string>
+
+    <string name="birthday">出生日期</string>
+
+    <string name="update_password">修改密码</string>
+
+    <string name="up_money">充值</string>
+
+    <string name="check_money">请选择充值金额</string>
+
+    <string name="check_moneyWay">请选择支付方式</string>
+
+    <string name="other_yuan">其他金额(2元起)</string>
+
+    <string name="AliPay">支付宝支付</string>
+
+    <string name="weiXinPay">微信支付</string>
+
+    <string name="YinLianPay">银行卡支付</string>
+
+    <string name="PayDescribe_one1">仅支持</string>
+
+    <string name="PayDescribe_one2">2元</string>
+
+    <string name="PayDescribe_one3">以上金额</string>
+
+    <string name="PayDescribe_two">支持银联储蓄卡支付，无需开通网银</string>
+
+    <string name="upMoneyDescribe_one">充值说明</string>
+
+    <string name="upMoneyDescribe_two">充值金额用于购买一元夺宝提供的商品优惠券，</string>
+
+    <string name="upMoneyDescribe_three">1优惠券=1夺宝币</string>
+
+    <string name="upMoneyDescribe_four">夺宝币用于平台一元夺宝，充值金额将无法退回。</string>
+
+    <string name="goodsDetail">商品详情</string>
+
+    <string name="Pay">支付</string>
+
+    <string name="setting">设置</string>
+
+    <string name="goodsCategory">商品分类</string>
+
+    <string name="myAddress">我的收货地址</string>
+
+    <string name="editMyAddress">编辑地址</string>
+
+    <string name="addMyAddress">添加地址</string>
+
+    <string name="message">消息中心</string>
+
+    <string name="myNumber">我的号码</string>
+
+    <string name="upLoading_order">晒单发布</string>
+
+    <!-- 图片浏览 -->
+    <string name="only_choose_num">超出可选图片张数</string>
+
+    <string name="finish">完成</string>
+
+    <string name="invalidSD">sdcard无效或没有插入！</string>
+
+    <string name="photo">选择相册</string>
+
+    <string name="album">相册</string>
+
+    <string name="preview">预览</string>
+
+    <string name="unfinished">完成</string>
+
+    <string name="camera_cancel">取消</string>
+
+    <string name="no_photo">相册没有图片</string>
+</resources>

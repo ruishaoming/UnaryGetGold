@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "R:\\android_studio_project\\UnaryGetGold\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\default_ptr_flip.png",
+        "source": "R:\\android_studio_project\\UnaryGetGold\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "R:\\android_studio_project\\UnaryGetGold\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\default_ptr_rotate.png",
+        "source": "R:\\android_studio_project\\UnaryGetGold\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "R:\\android_studio_project\\UnaryGetGold\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\indicator_arrow.png",
+        "source": "R:\\android_studio_project\\UnaryGetGold\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\indicator_arrow.png"
+    }
+]

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_login"
+    style="@style/pager_gary_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/id_user_RLayout"
+        style="@style/white_pager_style"
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:layout_marginTop="46dp">
+
+        <ImageView
+            android:id="@+id/user_iv"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24px"
+            android:src="@mipmap/users" />
+
+        <EditText
+            android:id="@+id/id_name_login_et"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="24px"
+            android:layout_toRightOf="@id/user_iv"
+            android:digits="0123456789"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:background="@color/colorWhite"
+            android:ems="17"
+            android:inputType="phone"
+            android:hint="@string/et_phone"
+            android:textColorHint="@color/gray"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/id_delete_content_icon"
+            android:layout_width="44px"
+            android:layout_height="44px"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="24px"
+            android:src="@mipmap/delete_content_icon" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:id="@+id/line_user"
+        style="@style/line_inner_style"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_below="@id/id_user_RLayout" />
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/id_passWord_RLayout"
+        style="@style/white_pager_style"
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:layout_below="@id/line_user">
+
+        <ImageView
+            android:id="@+id/password_iv"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24px"
+            android:src="@mipmap/password" />
+
+        <EditText
+            android:id="@+id/id_passWord_login_et"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="24px"
+            android:layout_toRightOf="@id/password_iv"
+            android:background="@color/colorWhite"
+            android:ems="17"
+            android:inputType="textPassword"
+            android:password="true"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:hint="@string/et_password"
+            android:textColorHint="@color/gray"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/id_look_content_cb"
+            android:layout_width="24px"
+            android:layout_height="24px"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="24px"
+            android:button="@null"
+            android:background="@drawable/look_password_selector" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <TextView
+        android:id="@+id/id_noKnowPassword_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/id_passWord_RLayout"
+        android:layout_marginRight="24px"
+        android:layout_marginTop="16px"
+        android:text="@string/not_know_password"
+        android:textColor="#0000ff"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/id_login_but"
+        android:layout_width="672px"
+        android:layout_height="72px"
+        android:layout_below="@id/id_passWord_RLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88px"
+        android:background="@drawable/button_style_red"
+        android:text="@string/login"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/id_divider_left_login"
+        android:layout_width="240px"
+        android:layout_height="5px"
+        android:layout_alignLeft="@id/id_login_but"
+        android:layout_alignStart="@id/id_login_but"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="148px"
+        android:background="@mipmap/divider_left" />
+
+    <TextView
+        android:id="@+id/id_one_key_login_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="130px"
+        android:layout_toEndOf="@id/id_divider_left_login"
+        android:layout_toRightOf="@id/id_divider_left_login"
+        android:text="@string/one_key_login"
+        android:textColor="@color/gray"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/id_divider_right_login"
+        android:layout_width="240px"
+        android:layout_height="5px"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="144px"
+        android:layout_toRightOf="@id/id_one_key_login_tv"
+        android:background="@mipmap/divider_right" />
+
+    <ImageView
+        android:id="@+id/id_weiXin_login_iv"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_below="@id/id_divider_left_login"
+        android:layout_marginEnd="20px"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="50px"
+        android:layout_toLeftOf="@id/id_one_key_login_tv"
+        android:layout_toStartOf="@id/id_one_key_login_tv"
+        android:src="@mipmap/weixin_login" />
+
+    <ImageView
+        android:id="@+id/id_qq_login_iv"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignBottom="@id/id_weiXin_login_iv"
+        android:layout_alignLeft="@id/id_divider_right_login"
+        android:layout_alignStart="@id/id_divider_right_login"
+        android:layout_marginLeft="20px"
+        android:layout_marginStart="20px"
+        android:src="@mipmap/qq_login" />
+
+    <TextView
+        android:id="@+id/id_WeiXin_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/id_weiXin_login_iv"
+        android:layout_alignStart="@id/id_weiXin_login_iv"
+        android:layout_below="@id/id_weiXin_login_iv"
+        android:layout_marginLeft="28px"
+        android:layout_marginTop="16px"
+        android:text="@string/weiXin"
+        android:textColor="@color/gray"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/id_QQ_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/id_WeiXin_tv"
+        android:layout_alignBottom="@id/id_WeiXin_tv"
+        android:layout_alignEnd="@id/id_qq_login_iv"
+        android:layout_alignRight="@id/id_qq_login_iv"
+        android:layout_marginEnd="28px"
+        android:layout_marginRight="28px"
+        android:text="@string/qq"
+        android:textColor="@color/gray"
+        android:textSize="14sp" />
+
+</com.zhy.autolayout.AutoRelativeLayout>
